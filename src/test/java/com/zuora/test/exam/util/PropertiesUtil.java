@@ -22,7 +22,7 @@ public class PropertiesUtil {
     public static ResourceBundle getTestProperties() {
         if (testProperties != null)
             return testProperties;
-        testProperties = getProperties("/properties/test.properties");
+        testProperties = getProperties("/Properties/test.properties");
         return testProperties;
     }
 
